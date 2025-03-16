@@ -28,6 +28,9 @@ During initial preprocessing, we discovered that all values in the dataset are n
 
 Below are some of the data visualizations we used to review and compare the features from our dataset.
 
+![image](https://github.com/user-attachments/assets/e278518f-5f70-4591-bcf2-82e2c0ecc38c)
+
+
 ![image](https://github.com/user-attachments/assets/36790475-af16-4a7f-b17d-65a0ef2e0a26)
 
 
