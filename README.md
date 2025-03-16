@@ -68,29 +68,29 @@ Below are some of the data visualizations we used to review and compare the feat
 
 Although we were able to reach over 90% accuracy with the included cognative assessments from the dataset, our team considered additonal data relevant to postive diagnosis that could allow for additonal optimization and improvment without the cognative assessments. Access to the below data and patient information would could improve and expand the model's capabilty. 
 
-• Genetic Features:
-	○ APOE ε4 Genotype (Carrier vs. Non-Carrier)
-	○ Other Genetic Markers (Polygenic Risk Score, CLU, PICALM, BIN1, TREM2)
-• Imaging-Based Features:
-	○ Structural MRI Measures (Hippocampal Volume, Entorhinal Cortex Thickness, Cortical Atrophy Pattern, Whole-Brain Atrophy)
-	○ White Matter Lesions (WMH Volume, Fazekas Score)
-	○ FDG-PET Metabolic Activity (Regional Metabolic Values, AD-Pattern Hypometabolism Score)
-	○ Amyloid PET (Amyloid PET Status, SUVR)
-	○ Tau PET (ROI SUVR, Braak-Stage Estimate)
-	○ Diffusion Tensor MRI (DTI)
-	○ Functional MRI (fMRI) / Resting-State Connectivity
-	○ Retinal Imaging/Ocular Tests
-	○ EEG/Magnetoencephalography
-• Lifestyle and Environmental Features
-	○ Midlife Obesity (BMI)
-	○ Late-Life Underweight
-	○ Social Engagement (Living Alone, Social Activity Frequency)
-	○ Mental Stimulation (Hobbies, Learning Activities)
-	○ Hearing Loss
-• Clinical Data
-	○ MoCA (Montreal Cognitive Assessment)
-	○ Delayed Word Recall ( or other specific memory tests)
-	○ FAQ (Functional Activities Questionnaire)
-	○ Anxiety
-	○ Irritability
-
+	• Genetic Features:
+		○ APOE ε4 Genotype (Carrier vs. Non-Carrier)
+		○ Other Genetic Markers (Polygenic Risk Score, CLU, PICALM, BIN1, TREM2)
+	• Imaging-Based Features:
+		○ Structural MRI Measures (Hippocampal Volume, Entorhinal Cortex Thickness, Cortical Atrophy Pattern, Whole-Brain Atrophy)
+		○ White Matter Lesions (WMH Volume, Fazekas Score)
+		○ FDG-PET Metabolic Activity (Regional Metabolic Values, AD-Pattern Hypometabolism Score)
+		○ Amyloid PET (Amyloid PET Status, SUVR)
+		○ Tau PET (ROI SUVR, Braak-Stage Estimate)
+		○ Diffusion Tensor MRI (DTI)
+		○ Functional MRI (fMRI) / Resting-State Connectivity
+		○ Retinal Imaging/Ocular Tests
+		○ EEG/Magnetoencephalography
+	• Lifestyle and Environmental Features
+		○ Midlife Obesity (BMI)
+		○ Late-Life Underweight
+		○ Social Engagement (Living Alone, Social Activity Frequency)
+		○ Mental Stimulation (Hobbies, Learning Activities)
+		○ Hearing Loss
+	• Clinical Data
+		○ MoCA (Montreal Cognitive Assessment)
+		○ Delayed Word Recall ( or other specific memory tests)
+		○ FAQ (Functional Activities Questionnaire)
+		○ Anxiety
+		○ Irritability
+	
