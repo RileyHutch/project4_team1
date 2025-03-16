@@ -28,6 +28,9 @@ During initial preprocessing, we discovered that all values in the dataset are n
 
 Below are some of the data visualizations we used to review and compare the features from our dataset.
 
+![image](https://github.com/user-attachments/assets/36790475-af16-4a7f-b17d-65a0ef2e0a26)
+
+
 	• Determining which data was impactful to accuracy scores
 	• Cognitive and Functional Assessments Impact to Data
 		• MMSE: Mini-Mental State Examination score, ranging from 0 to 30. Lower scores indicate cognitive impairment.
