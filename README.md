@@ -2,9 +2,9 @@
 
 ## Team 1
   	Riley Hutchinson,
- 	 Quinn Jones,
- 	 Jim Cockerham,
- 	 Katrina Rodriguez,
+ 	Quinn Jones,
+ 	Jim Cockerham,
+ 	Katrina Rodriguez,
 
 ## Project Proposal
 The aim of our project is to assess the predictability of Alzheimer's disease diagnosis, enabling early intervention strategies. We will analyze the relationship between patient demographic information and lifestyle factors to identify trends in positive diagnoses using binary prediction models. 
@@ -55,12 +55,42 @@ Below are some of the data visualizations we used to review and compare the feat
 		○ Keras Tuner -
 		○ Neural Network- increased features accuracy dropped, 
 
-## Conclusion and Summary
-
-### Considerations
-
 ## Tech Stack
 
 ## Resources
 
-https://www.kaggle.com/datasets/rabieelkharoua/alzheimers-disease-dataset
+	Dataset: https://www.kaggle.com/datasets/rabieelkharoua/alzheimers-disease-dataset
+ 	mrmr: https://github.com/smazzanti/mrmr
+
+## Conclusion and Summary
+
+### Considerations
+
+Although we were able to reach over 90% accuracy with the included cognative assessments from the dataset, our team considered additonal data relevant to postive diagnosis that could allow for additonal optimization and improvment without the cognative assessments. Access to the below data and patient information would could improve and expand the model's capabilty. 
+
+• Genetic Features:
+	○ APOE ε4 Genotype (Carrier vs. Non-Carrier)
+	○ Other Genetic Markers (Polygenic Risk Score, CLU, PICALM, BIN1, TREM2)
+• Imaging-Based Features:
+	○ Structural MRI Measures (Hippocampal Volume, Entorhinal Cortex Thickness, Cortical Atrophy Pattern, Whole-Brain Atrophy)
+	○ White Matter Lesions (WMH Volume, Fazekas Score)
+	○ FDG-PET Metabolic Activity (Regional Metabolic Values, AD-Pattern Hypometabolism Score)
+	○ Amyloid PET (Amyloid PET Status, SUVR)
+	○ Tau PET (ROI SUVR, Braak-Stage Estimate)
+	○ Diffusion Tensor MRI (DTI)
+	○ Functional MRI (fMRI) / Resting-State Connectivity
+	○ Retinal Imaging/Ocular Tests
+	○ EEG/Magnetoencephalography
+• Lifestyle and Environmental Features
+	○ Midlife Obesity (BMI)
+	○ Late-Life Underweight
+	○ Social Engagement (Living Alone, Social Activity Frequency)
+	○ Mental Stimulation (Hobbies, Learning Activities)
+	○ Hearing Loss
+• Clinical Data
+	○ MoCA (Montreal Cognitive Assessment)
+	○ Delayed Word Recall ( or other specific memory tests)
+	○ FAQ (Functional Activities Questionnaire)
+	○ Anxiety
+	○ Irritability
+
