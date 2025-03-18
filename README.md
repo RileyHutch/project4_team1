@@ -1,4 +1,4 @@
-# Project 4 
+# Project 4 - Predicting Alzheimer's Disease with Machine Learning
 
 ## Team 1
   	Riley Hutchinson,
@@ -27,6 +27,8 @@ During initial preprocessing, we discovered that all values in the dataset are n
 ## Data Visualizations
 
 Below are some of the data visualizations we used to review and compare the features from our dataset.
+
+For intial review of the dataset, we used Matplotlib to create visualizations to analyze patient counts against each of the features. In the following visualization we used patient counts to compare the various symptoms accounted by patients.
 
 ![image](https://github.com/user-attachments/assets/e278518f-5f70-4591-bcf2-82e2c0ecc38c)
 
