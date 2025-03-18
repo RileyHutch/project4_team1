@@ -51,6 +51,10 @@ For intial review of the dataset, we used Matplotlib to create visualizations to
 		○ Neural Network- increased features accuracy dropped, 
 
 ## Tech Stack
+You will need to follow these steps if you're cloning the repository for your own exploration. First, open a command-line interface. Follow the instructions to set up a [Conda environment](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) and activate your new environment. Then install all the python libraries we used in the project by typing: 
+```
+pip install -r requirements.txt
+```
 
 ## Resources
 
