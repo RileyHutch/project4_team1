@@ -32,7 +32,7 @@ For intial review of the dataset, we used Matplotlib to create visualizations to
 
 ![image](https://github.com/user-attachments/assets/e278518f-5f70-4591-bcf2-82e2c0ecc38c)
 
-For intial review of the dataset, we used Matplotlib to create visualizations to analyze patient counts against each of the features. In the above visualization we used patient counts to compare the various symptoms accounted by patients. 
+
 
 ![image](https://github.com/user-attachments/assets/36790475-af16-4a7f-b17d-65a0ef2e0a26)
 
