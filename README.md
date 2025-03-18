@@ -62,14 +62,21 @@ For our Random Forest model we used visualizations to analyze the multiple clust
 
 
 
-	• Keras Tuner -
-		○ Without any cognitive assessments accuracy of  66.5
-	• Neural Network - 
-		○ dropping cognitive assessments 66 (2 hidden layers few neurons)
-		○ Optimization with additional neurons (
-	• MRMR
-		○ Keras Tuner -
-		○ Neural Network- increased features accuracy dropped, 
+### Keras Tuner 
+
+	• Keras Tuner optimized our neural network by testing various architectures and hyperparameters, identifying an efficient model structure. This improved prediction accuracy while keeping the design 	streamlined for effective training.
+
+### Neural Network
+
+	• Our goal was to assess the impact of MMSE; mini-mental state examination, ADL; activities of daily living, and a functional assessment on model accuracy. By removing and reintroducing these features, we aimed to determine their significance and whether their exclusion would improve or hinder predictive performance.
+
+ ### MRMR
+ 
+	• mRMR (Minimum Redundancy Maximum Relevance) Selects the best features for machine learning by:
+		○ Choosing features that strongly predict the target (maximum relevance)
+		○ Avoiding features that are too similar/repetitive (min redundancy) 
+  		○ It does this by calculating a similarity score
+
 
 ## Tech Stack
 You will need to follow these steps if you're cloning the repository for your own exploration. First, open a command-line interface. Follow the instructions to set up a [Conda environment](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) and activate your new environment. Then install all the python libraries we used in the project by typing: 
