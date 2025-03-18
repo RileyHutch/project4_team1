@@ -30,19 +30,11 @@ Below are some of the data visualizations we used to review and compare the feat
 
 ![image](https://github.com/user-attachments/assets/e278518f-5f70-4591-bcf2-82e2c0ecc38c)
 
+For intial review of the dataset, we used Matplotlib to create visualizations to analyze patient counts against each of the features. In the above visualization we used patient counts to compare the various symptoms accounted by patients. 
 
 ![image](https://github.com/user-attachments/assets/36790475-af16-4a7f-b17d-65a0ef2e0a26)
 
 
-	• Determining which data was impactful to accuracy scores
-	• Cognitive and Functional Assessments Impact to Data
-		• MMSE: Mini-Mental State Examination score, ranging from 0 to 30. Lower scores indicate cognitive impairment.
-		• FunctionalAssessment: Functional assessment score, ranging from 0 to 10. Lower scores indicate greater impairment.
-		• MemoryComplaints: Presence of memory complaints, where 0 indicates No and 1 indicates Yes.
-		• BehavioralProblems: Presence of behavioral problems, where 0 indicates No and 1 indicates Yes.
-		• ADL: Activities of Daily Living score, ranging from 0 to 10. Lower scores indicate greater impairment.
-	• Contributed to high accuracy of positive diagnosis due to assessments specifically designated to detect Alzheimer's.
-	• What is the impact of dropping the cognitive assessments from the model and comparing accuracy since these are tests specifically targeted for diagnosis?
 	
 ## Machine Model Learning
 	• Random Forest- 
