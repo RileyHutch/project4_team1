@@ -34,15 +34,34 @@ For intial review of the dataset, we used Matplotlib to create visualizations to
 
 
 
+
+For our Random Forest model we used visualizations to analyze the multiple clusters used to group patients and features. In the below visualization we intially leveraged 5 clusters and used to the data to compare against models using 4 and 6 clusters.
+
 ![image](https://github.com/user-attachments/assets/36790475-af16-4a7f-b17d-65a0ef2e0a26)
+
 
 
 	
 ## Machine Model Learning
-	• Random Forest- 
-		○ Jim Accuracy .98 with cognitive assessment, without cognitive assessment .50, optimization .68
-		○ Quinn Random Forest 95,
-		○ Take away narrowed down important features that contributed to accuracy
+
+
+### Random Forest
+
+	• Identifying Clusters:
+		○ We used clustering techniques to group patients based on their features. This helps in understanding the underlying patterns and similarities within the data.
+		○ Clustering allows us to segment the patient population into distinct groups, which can be analyzed separately for more targeted insights.
+
+	• Feature Importance Analysis:
+		○ One of the key strengths of Random Forest is its ability to measure the importance of each feature in making predictions.
+		○ By analyzing feature importance, we can identify which features have the most significant impact on the model's accuracy.
+		○ This helps in understanding the key factors contributing to Alzheimer's diagnosis and can guide further research and interventions.
+
+	• Insights from Feature Importance:
+		○ The feature importance analysis revealed that cognitive and functional assessments, such as MMSE and Functional Assessment, are among the most impactful features for predicting Alzheimer's diagnosis.
+ 		○ This insight aligns with clinical knowledge and validates the importance of these assessments in detecting cognitive impairment.
+
+
+
 	• Keras Tuner -
 		○ Without any cognitive assessments accuracy of  66.5
 	• Neural Network - 
