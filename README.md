@@ -91,9 +91,13 @@ pip install -r requirements.txt
 
 ## Conclusion and Summary
 
+### Summary
+
+The integration of the Mini-Mental State Examination Score, Activities of Daily Living Score, and Functional Assessment significantly enhanced the accuracy of the model. To further optimize performance, Keras Tuner and the Minimum Redundancy Maximum Relevance (MRMR) technique were employed to identify key features and refine the model design, resulting in more impactful predictions. With these cognitive assessments included, the model achieved an impressive 85% accuracy. In contrast, accuracy ranged from 68% to 74% without them. Moving forward, incorporating additional factors such as genetic data and specific lifestyle elements could further elevate the model’s predictive power and overall accuracy.
+
 ### Considerations
 
-Although we were able to reach over 90% accuracy with the included cognative assessments from the dataset, our team considered additonal data relevant to postive diagnosis that could allow for additonal optimization and improvment without the cognative assessments. Access to the below data and patient information would could improve and expand the model's capabilty. 
+Although we were able to reach over 80% accuracy with the included cognative assessments from the dataset, our team considered additonal data relevant to postive diagnosis that could allow for additonal optimization and improvment without the cognative assessments. Access to the below data and patient information would could improve and expand the model's capabilty. 
 
 	• Genetic Features:
 		○ APOE ε4 Genotype (Carrier vs. Non-Carrier)
